@@ -35,7 +35,7 @@ public class Brawler {
         this.movementSpeed = movementSpeed;
     }
 
-    public void displayBrawlerInfo () {
+    public void brawlerInfo () {
 
         System.out.println(rare);
         System.out.println(name);
@@ -45,7 +45,7 @@ public class Brawler {
         System.out.println("Movement Speed - " + movementSpeed);
     }
 
-    public void upgradePowerLevel() {
+    public void upgradeLevel() {
 
         if (level > 10) {
             System.out.println("Max level is 11");

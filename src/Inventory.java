@@ -1,8 +1,8 @@
-public class Invetory extends Shop{
+public class Inventory extends Shop{
 
-    private double dropCoinsAmount;
+    private double coinsAmount;
     private int dropCoins;
-    private double dropPowerPointsAmount;
+    private double powerPointsAmount;
     private int dropPowerPoints;
 
     public void myBoxes(){
@@ -20,11 +20,11 @@ public class Invetory extends Shop{
         }
         else {
             box = box - 1;
-            dropCoinsAmount = Math.random()*100;
-            dropCoins = (int) dropCoinsAmount;
+            coinsAmount = Math.random()*100;
+            dropCoins = (int) coinsAmount;
             coins = coins + dropCoins;
-            dropPowerPointsAmount = Math.random()*50;
-            dropPowerPoints = (int) dropPowerPointsAmount;
+            powerPointsAmount = Math.random()*50;
+            dropPowerPoints = (int) powerPointsAmount;
             powerPoints = powerPoints + dropPowerPoints;
             System.out.println("You opened box");
             System.out.println("You received " + dropCoins + " coins");
@@ -40,11 +40,11 @@ public class Invetory extends Shop{
         }
         else {
             bigBox = bigBox - 1;
-            dropCoinsAmount = Math.random() * 300;
-            dropCoins = (int) dropCoinsAmount;
+            coinsAmount = Math.random() * 300;
+            dropCoins = (int) coinsAmount;
             coins = coins + dropCoins;
-            dropPowerPointsAmount = Math.random()*150;
-            dropPowerPoints = (int) dropPowerPointsAmount;
+            powerPointsAmount = Math.random()*150;
+            dropPowerPoints = (int) powerPointsAmount;
             powerPoints = powerPoints + dropPowerPoints;
             System.out.println("You opened big box");
             System.out.println("You received " + dropCoins + " coins");
@@ -60,11 +60,11 @@ public class Invetory extends Shop{
         }
         else {
             megaBox = megaBox - 1;
-            dropCoinsAmount = Math.random() * 1000;
-            dropCoins = (int) dropCoinsAmount;
+            coinsAmount = Math.random() * 1000;
+            dropCoins = (int) coinsAmount;
             coins = coins + dropCoins;
-            dropPowerPointsAmount = Math.random()*500;
-            dropPowerPoints = (int) dropPowerPointsAmount;
+            powerPointsAmount = Math.random()*500;
+            dropPowerPoints = (int) powerPointsAmount;
             powerPoints = powerPoints + dropPowerPoints;
             System.out.println("You opened mega box");
             System.out.println("You received " + dropCoins + " coins");

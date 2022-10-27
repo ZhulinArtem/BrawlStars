@@ -23,7 +23,7 @@ public class Match {
         if (trophies > 20000){
             trophies = 5000;
             Shop.starPoints = Shop.starPoints + 15000;
-            System.out.println("Нou got 15000 star points for a good game");
+            System.out.println("You got 15000 star points for a good game");
             System.out.println("Your trophies have been lowered to 5,000");
         }
         this.trophies = trophies;
@@ -34,7 +34,7 @@ public class Match {
 
     public void checkRang(){
 
-        System.out.println("Your trophies " + trophies);
+        System.out.println("Your trophies - " + trophies);
         System.out.println("You played:");
         System.out.println(showdownModeMatches + " showdown matches");
         System.out.println(brawlBallModeMatches + " brawl ball matches");
@@ -56,6 +56,12 @@ public class Match {
         if (winChance > 0.5){
             System.out.println("You win");
             trophies = trophies + 10;
+            if (trophies > 20000){
+                trophies = 5000;
+                Shop.starPoints = Shop.starPoints + 15000;
+                System.out.println("You got 15000 star points for a good game");
+                System.out.println("Your trophies have been lowered to 5,000");
+            }
             System.out.println("Your trophies - " + trophies);
             Shop.coins = Shop.coins + 20;
             System.out.println("You have received 20 coins");
@@ -81,6 +87,12 @@ public class Match {
         if (winChance > 0.5){
             System.out.println("You win");
             trophies = trophies +8;
+            if (trophies > 20000){
+                trophies = 5000;
+                Shop.starPoints = Shop.starPoints + 15000;
+                System.out.println("You got 15000 star points for a good game");
+                System.out.println("Your trophies have been lowered to 5,000");
+            }
             System.out.println("Your trophies - " + trophies);
             Shop.coins = Shop.coins + 20;
             System.out.println("You have received 20 coins");
@@ -106,6 +118,12 @@ public class Match {
         if (winChance > 0.5){
             System.out.println("You win");
             trophies = trophies + 8;
+            if (trophies > 20000){
+                trophies = 5000;
+                Shop.starPoints = Shop.starPoints + 15000;
+                System.out.println("You got 15000 star points for a good game");
+                System.out.println("Your trophies have been lowered to 5,000");
+            }
             System.out.println("Your trophies - " + trophies);
             Shop.coins = Shop.coins + 20;
             System.out.println("You have received 20 coins");

@@ -3,7 +3,7 @@ public class Main {
 
         Shop shop = new Shop(10000, 1000, 500, 10,10,10,500);
 
-        Invetory invetory = new Invetory();
+        Inventory inventory = new Inventory();
 
         Brawler elPrimo = new Brawler("Rare", "El Primo",1,1440,6000,5);
 
