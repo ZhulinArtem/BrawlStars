@@ -3,12 +3,12 @@ public class Shop {
     public static int starPoints;
     public static int coins;
     public static int gems;
-    protected static int box;
-    protected static int bigBox;
-    protected static int megaBox;
+    public static int box;
+    public static int bigBox;
+    public static int megaBox;
     public static int powerPoints;
 
-    protected Shop(){
+    public Shop(){
     }
 
     public Shop(int starPoints , int coins, int gems, int box, int bigBox, int megaBox, int powerPoints) {
